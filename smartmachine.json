@@ -1,0 +1,19 @@
+{
+  "alias": "Zone",
+  "hostname": "zone",
+  "brand": "joyent",
+  "max_physical_memory": 256,
+  "image_uuid": "cfa9c88e-03f8-11eb-9980-879ff7980a9f",
+  "default_gateway": "10.0.0.1",
+  "resolvers": [ "1.1.1.1", "1.0.0.1" ],
+  "nics": [
+     {
+      "nic_tag": "external0",
+      "ip": "10.0.0.1",
+      "netmask": "255.255.255.0",
+      "allow_ip_spoofing": true,
+      "gateway": "10.0.0.1",
+      "primary": true
+    }
+  ]
+}
