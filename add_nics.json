@@ -1,0 +1,13 @@
+{
+    "add_nics": [
+        {
+            "physical": "net1",
+            "index": 1,
+            "nic_tag": "external0",
+            "ip": "192.168.0.1",
+            "netmask": "255.255.255.0",
+            "gateway": "192.168.0.1"
+        }
+    ]
+}
+
