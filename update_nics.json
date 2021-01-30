@@ -1,0 +1,8 @@
+{
+  "update_nics": [
+    {
+      "mac": "00:00:00:00:00:00",
+      "nic_tag": "external1"
+    }
+  ]
+}
