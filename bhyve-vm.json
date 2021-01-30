@@ -1,0 +1,31 @@
+{
+  "alias": "Bhyve-vm",
+  "brand": "bhyve",
+  "resolvers": [
+    "1.1.1.1",
+    "1.0.0.1"
+  ],
+  "ram": "1024",
+  "vcpus": "2",
+  "nics": [
+    {
+      "nic_tag": "external0",
+      "ip": "10.0.0.1",
+      "netmask": "255.255.255.0",
+      "gateway": "10.0.0.1",
+      "model": "virtio",
+      "primary": true
+    }
+  ],
+  "disks": [
+    {
+      "image_uuid": "9aa48095-da9d-41ca-a094-31d1fb476b98",
+      "boot": true,
+      "model": "virtio",
+      "size": 10024
+    }
+  ],
+  "customer_metadata": {
+    "root_authorized_keys": "ssh-ed25519 ..."
+  }
+}
